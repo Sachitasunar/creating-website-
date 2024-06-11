@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+
+}
+.heighth{
+    height: 70px;
+}
+.flex{
+    display: flex;
+}
+.logo{
+    width: 150px;
+    height: 30px;
+}
+.spacebetween{
+    justify-content: space-between;
+
+}
+.alignitems{
+    align-items: center;
+}
+.boxshadow{
+    box-shadow: 0px 0px 5px rgb(96, 94, 94);
+}
+.links a{
+     text-decoration: none;
+     margin-left: 30px;
+     font-size: 14px ;
+     color: black;
+
+}
+.links a:hover{
+    color: rgb(165, 139, 139);
+}
+.texts{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.bgimg{
+    width:calc(100%-40px);
+    height: 550px;
+    background-image:url(https://images.unsplash.com/photo-1716255254612-c0366e3bc5d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 20px;
+    background-attachment: scroll;
+    position: relative;
+    
+
+}
+.button{
+    border: 2px solid rgb(169, 51, 132);
+    border-radius: 10px;
+    color: rgb(255, 0, 162);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 18px;
+  
+}
+.heightmain{
+    height: 500px;
+}
+.mt{
+    margin-top:50px ;
+}
+.mb{
+    margin-bottom: 50px;
+}
+.card{
+     height: 550px;
+}
+.img{
+    width: 400px;
+    height: 400px;
+}
+.all{
+    width: 350px;
+    height: 300px;
+}
